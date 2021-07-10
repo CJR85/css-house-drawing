@@ -174,3 +174,7 @@ body {
   border-top: 4px solid #257582;
   border-bottom: 4px solid #257582;
 }
+
+.adjust {
+  top: 45%;
+}
