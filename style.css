@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.house {
+  position: relative;
+  width: 700px;
+  height: 350px;
+  background: #ccc;
+  border-bottom: 8px solid #175117;
+}
