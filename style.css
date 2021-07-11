@@ -10,13 +10,13 @@ body {
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  background: #ccc;
 }
 
 .house {
   position: relative;
   width: 700px;
   height: 350px;
-  background: #ccc;
   border-bottom: 8px solid #175117;
 }
 
@@ -27,7 +27,7 @@ body {
   transform: translateX(-50%);
   width: 400px;
   height: 200px;
-  background: #fff;
+  background: #f9f9f9;
 }
 
 .main::before {
@@ -349,4 +349,11 @@ body {
   height: 100px;
   background: #3c2703;
   transform: rotate(45deg);
+}
+
+.tree2 {
+  top: -50px;
+  right: -70px;
+  background: #7b921f;
+  transform: rotate(315deg) scale(1.25);
 }
